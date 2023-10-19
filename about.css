@@ -1,0 +1,183 @@
+.img1 {
+    border-radius: 11px;
+
+}
+
+.sec1 {
+    margin: 35px;
+    border: 1px solid rgb(214, 200, 200);
+    border-radius: 11px;
+    box-shadow: 0 0 20px rgb(70, 113, 183);
+}
+
+.sec2 {
+    background: linear-gradient(rgba(19, 19, 122, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 20px;
+    border: 3px solid #f9f9f92e;
+    box-shadow: 0 8px 32px rgba(6, 6, 6, 0.37);
+}
+
+.sec3 {
+    margin: 35px;
+    border: 1px solid rgb(214, 200, 200);
+    border-radius: 11px;
+    box-shadow: 0 0 20px rgb(70, 113, 183);
+}
+
+.sec4 {
+    width: 1200px;
+margin: 70px;
+border-radius: 20px solid black;
+
+}
+
+#imga:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgb:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgc:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgd:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imge:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgf:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}#imgg:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgh:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgi:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgj:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgk:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#imgl:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+#GALLERY {
+    padding: 15px;
+    border: 1px solid rgb(164, 157, 157);
+    border-radius: 12px;
+}
+
+
+
+footer{
+    background-color: #a8a6dc;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+ text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.socialIcons a i{
+font-size: 2em;
+color: rgb(78, 78, 183);
+opacity: 0.9;
+}
+
+/* Hover Effects on social Media Icons */
+.socialIcons a:hover{
+background-color: #5a77c7;
+transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+color: white;
+transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+color: white;
+transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul {
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+
+.footerNav ul li a {
+color: white;
+margin: 20px;
+text-decoration: none;
+font-size: 1.3em;
+opacity: 0.7;
+transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #828aca;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
+}
+
+@media(max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li {
+width: 100%;
+text-align: center;
+margin: 10px;
+    }
+
+}
